@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400&family=Montserrat:wght@400;700&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +8,7 @@
 
 body {
     color: rgb(37, 37, 37);
+    font-family: "Hind Madurai", sans-serif;
 }
 
 .main-container {
@@ -18,8 +21,14 @@ a {
     color: inherit;
 }
 
+h1 {
+    font-weight: 300;
+}
+
 h3 {
-    font-size: 1.3rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
 }
 
 ul {
@@ -147,7 +156,7 @@ footer div {
 }
 
 footer h3 {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     line-height: 32px;
 }
 
@@ -160,17 +169,29 @@ footer form {
     flex-direction: column;
 }
 
+footer p.error-message {
+    margin-bottom: 3rem;
+}
+
 footer form input,
-footer form button {
+footer form button,
+footer form textarea {
     font-size: 14px;
     padding: 0.5rem 1rem;
+    font-family: "Hind Madurai", sans-serif;
 }
 
 footer form input:not(:first-of-type) {
     margin-top: 0.5rem;
 }
 
-footer form input:focus {
+footer form textarea {
+    margin-top: 0.5rem;
+    resize: vertical;
+}
+
+footer form input:focus,
+footer form textarea:focus {
     outline: none;
 }
 

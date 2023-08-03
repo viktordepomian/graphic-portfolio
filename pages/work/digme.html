@@ -181,6 +181,13 @@
                     <h3>
                         Do you need help?<br />Send me a message and lets talk.
                     </h3>
+                    <p class="error-message">
+                        If the form is acting up. Just send me a message on
+                        <a href="mailto:viktor.depomian@gmail.com"
+                            >viktor.depomian@gmail.com</a
+                        >.
+                    </p>
+
                     <div class="divs">
                         <div class="left-div">
                             <form>
@@ -192,13 +199,14 @@
                                 <input
                                     type="text"
                                     id="email"
-                                    placeholder="Your email"
+                                    placeholder="Your email..."
                                 />
-                                <input
-                                    type="text"
+                                <textarea
+                                    name="message"
                                     id="message"
+                                    rows="10"
                                     placeholder="Your message..."
-                                />
+                                ></textarea>
                                 <button type="submit">Send</button>
                             </form>
                         </div>
