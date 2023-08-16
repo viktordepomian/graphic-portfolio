@@ -205,6 +205,14 @@ footer form button {
     margin-top: 1rem;
 }
 
+p.more-work-link {
+    text-align: center;
+}
+
+p.more-work-link a {
+    text-decoration: underline;
+}
+
 /* MEDIA STUFF */
 
 @media screen and (max-width: 800px) {
