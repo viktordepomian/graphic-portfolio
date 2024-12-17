@@ -81,6 +81,10 @@ nav ul {
     color: rgb(71, 189, 60);
 }
 
+#banner .bannerTextCol3 {
+    collor: rgb(235, 79, 52);
+}
+
 .divs {
     margin: 3rem 0;
     display: flex;
